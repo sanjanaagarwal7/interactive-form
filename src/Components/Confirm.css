@@ -1,0 +1,125 @@
+#confirmDetails div{
+    padding:2.9vh;
+}
+#submit button{
+    float:right;
+    height:5vh;
+    width:8vw;
+    margin-left:1vw;
+    margin-top:20vh;
+}
+
+#confirmDetails div{
+    padding:2.9vw;
+}
+
+#confirmDetails label{
+    margin-right:4vw;
+}
+#confirmDetails #confirmp{
+    margin-left:7vw;
+}
+#fullname input{
+    margin-left:2vw;
+}
+#password input{
+    margin-left:2.2vw;
+}
+#fullname-error{
+    margin-left:10.7vw;
+    color:rgba(253, 219, 51, 0.607);
+}
+#email input{
+    width:20vw;
+}
+
+
+
+
+
+
+
+
+#email-error{
+    margin-left:10.7vw;
+    color:rgba(253, 219, 51, 0.607);
+}
+#password{
+    display:flex;
+}
+#password-error{
+    margin-left:10.7vw;
+    color:rgba(253, 219, 51, 0.607);
+}
+#confirmpassword-error{
+    margin-left:21.5vw;
+    color:rgba(253, 219, 51, 0.607);
+}
+
+@media(width<=1000px){
+    #confirmDetails div{
+        padding:2.9vh;
+    }
+    #submit button{
+        float:left;
+        height:2.9vh;
+        width:15vw;
+        margin-left:1vw;
+        margin-top:2vh;
+    }
+    
+    #confirmDetails div{
+        padding:4vw;
+    }
+    
+    #confirmDetails label{
+        margin-right:0vw;
+    }
+    #confirmDetails #confirmp{
+        margin-left:0vw;
+    }
+    #fullname input{
+        margin-left:0vw;
+        width:100%
+    }
+    #password input{
+        margin-left:0vw;
+        width:100%
+    }
+    #fullname-error{
+        margin-left:0vw;
+        color:rgba(253, 219, 51, 0.607);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #email-error{
+        margin-left:0vw;
+        color:rgba(253, 219, 51, 0.607);
+    }
+    #password{
+        display:flex;
+        flex-direction: column;
+
+    }
+    #password section{
+        margin-bottom:2vh;
+    }
+    #password-error{
+        margin-left:0vw;
+        color:rgba(253, 219, 51, 0.607);
+    }
+    #confirmpassword-error{
+        margin-left:0vw;
+        color:rgba(253, 219, 51, 0.607);
+    }
+    #email input{
+        width:100%;
+    }
+}
+

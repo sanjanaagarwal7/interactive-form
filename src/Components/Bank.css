@@ -1,0 +1,83 @@
+#bankDetails div{
+    padding:5vh;
+}
+
+#nextConfirm button{
+    float:right;
+    height:5vh;
+    width:8vw;
+    margin-top:20vh;
+}
+#owner label{
+    margin:2.9vw;
+}
+#cardNumber label {
+    margin:1vw;
+}
+ #month label{
+    margin:2.9vw;
+}
+#nextConfirm{
+    margin:2.9vw;
+}
+#owner{
+    display:flex;
+}
+#owner-error{
+    margin-left:8.8vw;
+    color:rgba(253, 219, 51, 0.607);
+}
+#cvv-error{
+    margin-left:7.7vw;
+    color:rgba(253, 219, 51, 0.607);
+}
+#cardnumber-error{
+    margin-left:8.4vw;
+    color:rgba(253, 219, 51, 0.607);
+}
+
+@media(width<=1000px){
+    #bankDetails div{
+        padding:2vh;
+    }
+    
+    #nextConfirm button{
+        float:left;
+        height:2.9vh;
+        width:15vw;
+        margin-top:10vh;
+    }
+    #owner label{
+        margin:0vw;
+    }
+    #cardNumber label {
+        margin:0vw;
+    }
+     #month label{
+        margin:0vw;
+    }
+    #nextConfirm{
+        margin:0vw;
+    }
+    #owner{
+        display:flex;
+        flex-direction: column;
+    }
+ 
+    #owner-error{
+        margin-left:0;
+        color:rgba(253, 219, 51, 0.607);
+    }
+    #cvv-error{
+        margin-left:0;
+        color:rgba(253, 219, 51, 0.607);
+    }
+    #cardnumber-error{
+        margin-left:0;
+        color:rgba(253, 219, 51, 0.607);
+    }
+    #bankDetails input{
+        width:100%;
+        margin-bottom:1vh;
+    }
+}
