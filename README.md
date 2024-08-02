@@ -1,4 +1,4 @@
-# intercative-form <br>
+# interactive-form <br>
 A multi-step React form designed to collect personal and potentially financial information, incorporating robust client-side error handling. The form prevents submission with incorrect data and provides clear, immediate feedback to guide users in correcting errors. It's also fully responsive, adapting seamlessly to any device for optimal user experience. <br>
 # Features <br>
 -> The first page collects personal information of the user like their name, gender, address, phone number etc. <br>
